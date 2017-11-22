@@ -1,0 +1,1 @@
+export const TRANSFER_TRIP = 'TRANSFER_TRIP';
