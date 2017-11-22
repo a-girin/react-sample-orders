@@ -1,1 +1,2 @@
 export const TRANSFER_TRIP = 'TRANSFER_TRIP';
+export const UPDATE_STORE = 'UPDATE_STORE';

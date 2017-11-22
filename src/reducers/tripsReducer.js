@@ -1,5 +1,5 @@
 import initialState from './initialState';
-import { TRANSFER_TRIP } from '../actions/actionTypes';
+import { TRANSFER_TRIP, UPDATE_STORE } from '../actions/actionTypes';
 
 const tripsReducer = (state = initialState, action) => {
 	switch (action.type) {
@@ -21,7 +21,7 @@ const tripsReducer = (state = initialState, action) => {
 						return terminal;
 					}),
 					readyToGoTrips: readyToGoTrips.filter((trip) => trip.id !== tripId),
-				}
+				};
 			} else {
 				let { sourceListId, targetListId, tripId } = action;
 
@@ -43,8 +43,11 @@ const tripsReducer = (state = initialState, action) => {
 
 						return terminal;
 					})
-				}
+				};
 			}
+
+		case UPDATE_STORE:
+			return action.store;
 
 		default:
 			return state;

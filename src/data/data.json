@@ -1,0 +1,208 @@
+{
+	"id": "today",
+	"title": "Today",
+	"terminals": [
+		{
+			"id": 1,
+			"title": "Terminal 1",
+			"status": "valid",
+			"trips": [
+				{
+					"id": "n53m",
+					"title": "Trip N53M",
+					"status": "valid",
+					"time": 1486620534415,
+					"loaded_orders": 4,
+					"orders": 12
+				},
+				{
+					"id": "n54m",
+					"title": "Trip N54M",
+					"status": "warning",
+					"time": 1486620954415,
+					"orders": 4
+				},
+				{
+					"id": "n55m",
+					"title": "Trip N55M",
+					"status": "warning",
+					"time": 1486621554415,
+					"orders": 4
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Terminal 2",
+			"status": "warning",
+			"trips": [
+				{
+					"id": "n3m0",
+					"title": "Trip N3M0",
+					"status": "valid",
+					"time": 1486620534415,
+					"orders": 3
+				},
+				{
+					"id": "n3m1",
+					"title": "Trip N3M1",
+					"status": "valid",
+					"time": 1486621314415,
+					"orders": 3
+				},
+				{
+					"id": "n3m2",
+					"title": "Trip N3M2",
+					"status": "valid",
+					"time": 1486622934415,
+					"orders": 7
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Terminal 3",
+			"status": "error",
+			"trips": [
+				{
+					"id": "5dd6",
+					"title": "Trip 5DD6",
+					"status": "valid",
+					"time": 1486620354415,
+					"orders": 6
+				}
+			]
+		},
+		{
+			"id": 4,
+			"title": "Terminal 4",
+			"status": "valid",
+			"trips": [
+				{
+					"id": "s2aa",
+					"title": "Trip S2AA",
+					"status": "valid",
+					"time": 1486620774415,
+					"orders": 5
+				},
+				{
+					"id": "s0sa",
+					"title": "Trip S0SA",
+					"status": "error",
+					"time": 1486621134415,
+					"orders": 5
+				},
+				{
+					"id": "i8l3",
+					"title": "Trip I8L3",
+					"status": "valid",
+					"time": 1486621674415,
+					"orders": 5
+				}
+			]
+		},
+		{
+			"id": 5,
+			"title": "Terminal 5",
+			"status": "valid",
+			"trips": [
+				{
+					"id": "d57c",
+					"title": "Trip D57C",
+					"status": "valid",
+					"time": 1486620774415,
+					"orders": 9
+				},
+				{
+					"id": "wcdc",
+					"title": "Trip WCDC",
+					"status": "valid",
+					"time": 1486621134415,
+					"orders": 7
+				}
+			]
+		},
+		{
+			"id": 6,
+			"title": "Terminal 6",
+			"status": "valid",
+			"trips": []
+		},
+		{
+			"id": 7,
+			"title": "Terminal 7",
+			"status": "valid",
+			"trips": []
+		},
+		{
+			"id": 8,
+			"title": "Terminal 8",
+			"status": "valid",
+			"trips": []
+		},
+		{
+			"id": 9,
+			"title": "Terminal 9",
+			"status": "valid",
+			"trips": []
+		},
+		{
+			"id": 10,
+			"title": "Terminal 10",
+			"status": "valid",
+			"trips": []
+		}
+	],
+	"readyToGoTrips": [
+		{
+			"id": "cha1",
+			"title": "Trip CHA1",
+			"status": "valid",
+			"time": 1486620774415,
+			"orders": 7
+		},
+		{
+			"id": "d0r1",
+			"title": "Trip D0R1",
+			"status": "valid",
+			"time": 1486621074415,
+			"orders": 6
+		},
+		{
+			"id": "f8r1",
+			"title": "Trip F8R1",
+			"status": "valid",
+			"time": 1486621914415,
+			"orders": 5
+		},
+		{
+			"id": "1rc2",
+			"title": "Trip 1RC2",
+			"status": "valid",
+			"time": 1486623234415,
+			"orders": 3
+		}
+	],
+	"values": [
+		{
+			"id": "number_of_totes",
+			"title": "Number of Order Totes per Order",
+			"value": 2
+		},
+		{
+			"id": "missing_inventory",
+			"title": "Missing Inventory",
+			"value": 6
+		},
+		{
+			"id": "required_inventory",
+			"title": "Required Inventory per.",
+			"value": 1
+		},
+		{
+			"id": "daily_success",
+			"title": "Daily success",
+			"value": 22
+		}
+	]
+}

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { transferTrip } from '../../actions/ordersActions';
+import * as ordersActions from '../../actions/ordersActions';
 import TripsPage from './TripsPage';
 
 const mapStateToProps = ({ trips }) => ({
@@ -7,4 +7,4 @@ const mapStateToProps = ({ trips }) => ({
 	readyToGoTrips: trips.readyToGoTrips,
 });
 
-export default connect(mapStateToProps, { transferTrip })(TripsPage);
+export default connect(mapStateToProps, { ...ordersActions })(TripsPage);
