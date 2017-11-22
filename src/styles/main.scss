@@ -73,10 +73,15 @@
 	left: 150px;
 	position: absolute;
 	top: 0;
-	width: 200px;
+	width: 180px;
 
 	.trip {
 		background-color: #fff;
+		cursor: auto;
+
+		&:active {
+			cursor: auto;
+		}
 
 		.trip-title {
 			float: left;
@@ -160,7 +165,7 @@
 
 	.trip-wrapper {
 		float: left;
-		padding: 5px 10px;
+		margin: 5px 10px;
 	}
 }
 

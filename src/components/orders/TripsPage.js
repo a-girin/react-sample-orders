@@ -11,6 +11,7 @@ class TripsPage extends Component {
 		this.dragulaContainer = Dragula({
 			revertOnSpill: true,
 			copy: true,
+			moves: (el) => !el.classList.contains('trip-progress'),
 			accepts: (el, target) => target.classList.contains('accept-drop'),
 		});
 
@@ -28,16 +29,10 @@ class TripsPage extends Component {
 		const targetListId = target.dataset.id;
 		const sourceListId = source.dataset.id;
 		const tripId = el.dataset.id;
-		const tripClass = el.classList;
 
 		el.remove();
 
 		if (targetListId === sourceListId) {
-			return false;
-		}
-
-		if (tripClass.contains('trip-progress')) {
-			alert('stop, stupid human');
 			return false;
 		}
 
